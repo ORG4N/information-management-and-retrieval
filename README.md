@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# COMP2001 
-A repo for use for the COMP2001 Information Management &amp; Retrieval Module
-
-=======
 # COMP2001 Information Management & Retrieval
 This repository has been used for Assignment 2 (70%) within the above module.
 
