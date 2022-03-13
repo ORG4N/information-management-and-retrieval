@@ -46,7 +46,8 @@ The LDA includes three total webpages:
   <li>Data  - displays dataset information</li>
   <li>Borrowers - displays dataset information in JSON-LD format</li>
 </ul>
->>>>>>> 7c15fc5602d1c42e602b6358878f408e082ffe6d
+
 
 Bootstrap has been used to style the webpages: https://getbootstrap.com/
+
 The dataset chosen to theme the project around was: Active Library User age statistics: https://plymouth.thedata.place/dataset/active-library-users-by-age
