@@ -1,9 +1,38 @@
-# COMP2001 Information Management & Retrieval
-This repository has been used for Assignment 2 (70%) within the above module.
+![title image](https://github.com/ORG4N/information-management-and-retrieval/blob/main/docs/images/2001.png)
 
-## Part 1
-https://github.com/Plymouth-University/comp2001_assignment-ORG4N/tree/main/Task%201
+<p align="center"><strong>Module Overview</strong>
+<br>
+"To introduce students to fundamental principles around graphical representation along with information management, database systems and modelling. <br> To consider issues around image compression techniques, how humans can access information and data to support their needs, learn declarative queries and considercommon designs for database systems. <br> To understand the differences between relational and semi-structured data models anduse appropriate data modelling techniques."
+</p>
+<br/>
 
+<h2>Learning Outcomes</h2>
+
+- Demonstrate explicit uses of modelling techniques to gain access to information and data to support a given need.
+- Illustrate an appropriate technical solution to the problems of information privacy, integrity, security and preservation.
+- Illustrate the design of an application of moderate complexity to elicit and visualise information from a data store.
+
+<br>
+
+<h2>Assessments</h2>
+The module is assessed via 100% coursework, across two elements:
+
+<br>
+<br>
+
+<b> Set Exercises (30%) </b>
+<br>
+Assessment consists of: carry out an analysis of a chosen scenario, identify the appropriate data items, design and then create an appropriate database layer that will store the data appropriately and preserve the integrity of the data. Then implement the design on a Microsoft SQL Server database.
+
+<b> Report (70%) </b>
+<br>
+Assessment consists of two parts: 1. create a web service that provides access through a RESTful API interface, and 2. develop a prototype linked data application providing the visualisation of a chosen
+dataset.
+
+
+<h2>Futher Information on Assignment 2: Report</h2>
+
+### Part 1
 This part of the coursework included making the following deliverables:
 <ul>
   <li>A Microsoft SQL database</li>
@@ -26,12 +55,12 @@ Three stored procedures were then created to represent the following actions: Cr
 A student and their programme information can be found within a the StudentDetails view.
 Finally, upon updating a Programme, a trigger would be called to store the old data in the Audit table, before it is overwritten by the new changes.
 
-### API
+#### API
 An API was written in ASP.NET to interact with this database, by using the following HTTP methods: POST, GET, PUT, DELETE.
 
 ---
 
-## Part 2
+### Part 2
 Part 2 of the assignment involved making a Linked Data Application. 
 
 The dataset chosen to theme the project around was: Active Library User age statistics: 
@@ -49,5 +78,3 @@ The LDA includes three total webpages:
 
 
 Bootstrap has been used to style the webpages: https://getbootstrap.com/
-
-The dataset chosen to theme the project around was: Active Library User age statistics: https://plymouth.thedata.place/dataset/active-library-users-by-age
